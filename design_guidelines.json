@@ -1,0 +1,152 @@
+{
+  "project_name": "Love Your Serger Landing Page",
+  "theme": "LIGHT",
+  "archetype": "Organic & Earthy / Soft Luxury Hybrid",
+  "target_audience": "Women aged 35–70 who enjoy sewing and crafting but feel intimidated by their serger/overlocker.",
+  "design_vibe": "Premium yet approachable, warm, trustworthy, creative, feminine, and easy to read. Not trendy or overly modern. Soft blush pink accents on clean white.",
+  "global_rules": {
+    "cta_text": "BUY NOW",
+    "cta_link": "https://www.digistore24.com/product/561361?currency=USD&?utm_campaign=spabcontrolvaa",
+    "no_pricing": true,
+    "mobile_sticky_bar": true
+  },
+  "typography": {
+    "font_families": {
+      "headings": "'Playfair Display', serif",
+      "body": "'Manrope', sans-serif"
+    },
+    "hierarchy": {
+      "h1": "text-4xl md:text-5xl lg:text-6xl font-normal tracking-tight leading-tight text-foreground",
+      "h2": "text-3xl md:text-4xl lg:text-5xl font-normal tracking-tight leading-tight text-foreground",
+      "h3": "text-2xl md:text-3xl font-medium text-foreground",
+      "body_large": "text-lg md:text-xl font-normal leading-relaxed text-foreground/90",
+      "body_standard": "text-base md:text-lg font-normal leading-relaxed text-foreground/80"
+    },
+    "guidelines": [
+      "Use Playfair Display primarily for H1, H2, and pull quotes. Italic accents inside headings are encouraged for a premium feel (e.g., <i>Love</i> Your Serger).",
+      "Body text must use Manrope and be large enough (min 17-18px / text-lg) for the 35-70yo audience.",
+      "Do not use overly bold weights for headings; rely on size and the serif font's elegance (font-normal or font-medium)."
+    ]
+  },
+  "colors": {
+    "background": "#FFFFFF",
+    "foreground": "#2A2A2A",
+    "primary": "#C24153",
+    "primary_hover": "#A73545",
+    "secondary": "#F9E8E8",
+    "secondary_foreground": "#4A3535",
+    "muted": "#FDFBFB",
+    "muted_foreground": "#6B5E5E",
+    "border": "#E8DADA",
+    "accent_blush": "#FADADD"
+  },
+  "spacing_and_layout": {
+    "philosophy": "Generous spacing. 2-3x more whitespace than standard layouts to create a calm, untroubled learning environment.",
+    "section_padding": "py-16 md:py-24 lg:py-32",
+    "container": "max-w-6xl mx-auto px-4 md:px-6 lg:px-8",
+    "border_radius": "rounded-2xl",
+    "shadows": "shadow-[0_8px_30px_rgba(194,65,83,0.06)]"
+  },
+  "interactive_elements": {
+    "buttons": {
+      "primary": "bg-[#C24153] hover:bg-[#A73545] text-white font-medium text-lg md:text-xl py-4 px-8 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5 text-center flex justify-center items-center",
+      "guideline": "Buttons must be pill-shaped (rounded-full). Always use the exact text 'BUY NOW' with NO other variations. High contrast against both white and blush backgrounds."
+    },
+    "animations": {
+      "scroll_reveal": "Gentle fade-up. initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, ease: 'easeOut' }}",
+      "hover": "Subtle lift and shadow increase. No harsh flashes or rapid scaling."
+    }
+  },
+  "components_and_sections": {
+    "header": {
+      "layout": "Simple clean top bar. Logo left, BUY NOW right. Sticky on desktop with glassmorphism (bg-white/90 backdrop-blur-md).",
+      "mobile": "Logo centered, no hamburger menu needed as it's a single page sales letter."
+    },
+    "hero": {
+      "layout": "Split 2-column on desktop. Left: Headline, subheadline, trust badge, BUY NOW button. Right: Hero image (sewing-overlocker.jpeg) with soft rounded corners and subtle shadow.",
+      "background": "bg-gradient-to-b from-[#F9E8E8]/60 to-white"
+    },
+    "frustration_empathy": {
+      "layout": "Centered text maximum width 3xl. Focus on the emotional pain of threading, tension issues, and fear of the machine.",
+      "background": "bg-[#FDFBFB] py-24"
+    },
+    "imagine_transformation": {
+      "layout": "Grid or side-by-side contrasting the frustration. 'Imagine confidently finishing seams...'",
+      "typography": "Playfair Display italics for emotional keywords."
+    },
+    "course_intro": {
+      "layout": "Premium card style (bg-white border border-[#E8DADA] rounded-3xl p-8 md:p-12 shadow-lg). Image of Thread Tension Masterclass. Highlight the value."
+    },
+    "modules": {
+      "layout": "Bento grid or vertical stacked cards. Each module needs generous padding. Use the provided carousel images for module visuals.",
+      "style": "bg-[#F9E8E8]/30 border border-[#E8DADA]/50 rounded-2xl p-6 md:p-8"
+    },
+    "testimonials": {
+      "layout": "Masonry or 3-column grid of cards.",
+      "style": "bg-white p-6 rounded-2xl shadow-sm border border-[#E8DADA]/50. Use Playfair for the quotes to add a premium editorial feel."
+    },
+    "student_projects": {
+      "layout": "Image gallery grid (3 or 4 columns) of real student projects. No text needed, just beautiful photos showing what's possible."
+    },
+    "meet_nicole": {
+      "layout": "Split section. Photo of Nicole with a soft organic shape or rounded rectangle on one side, heartfelt bio on the other.",
+      "background": "bg-[#F9E8E8]/40"
+    },
+    "objections_faq": {
+      "layout": "Clean accordion using shadcn/ui. Smooth expand/collapse. Question in Manrope medium text-lg, answer in standard text-base.",
+      "icon": "Use Plus/Minus icons. Simple and accessible."
+    },
+    "guarantee": {
+      "layout": "Centered layout with the money-back badge image prominently displayed. Boxed area with a subtle dashed border or premium shadow to look like a certificate.",
+      "background": "bg-white"
+    },
+    "final_close": {
+      "layout": "Centered, distraction-free. Emotional final plea. Large BUY NOW button.",
+      "background": "bg-[#F9E8E8]"
+    },
+    "mobile_sticky_bar": {
+      "layout": "fixed bottom-0 left-0 right-0 p-4 bg-white/95 backdrop-blur-md border-t border-[#E8DADA] shadow-[0_-10px_30px_rgba(0,0,0,0.08)] z-50 md:hidden flex justify-center items-center",
+      "button": "w-full shadow-md"
+    }
+  },
+  "media_assets": {
+    "logo": "https://www.your-creatory.com/wp-content/uploads/2024/07/logo1.png",
+    "instructor_nicole": "https://www.your-creatory.com/wp-content/uploads/2024/07/nicole.jpeg",
+    "guarantee_badge": "https://www.your-creatory.com/wp-content/uploads/2024/04/moneyback1.png",
+    "hero_images": [
+      "https://www.your-creatory.com/wp-content/uploads/2024/07/sewing-overlocker.jpeg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/07/overlocker-yarn.jpeg"
+    ],
+    "course_modules_carousel": [
+      "https://www.your-creatory.com/wp-content/uploads/2024/07/overlocker-carousel-1.jpeg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/07/overlocker-carousel-2.jpeg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/07/overlocker-carousel-3.jpeg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/07/overlocker-carousel-4.jpeg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/07/overlocker-carousel-5.jpeg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/07/overlocker-carousel-6.jpeg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/07/overlocker-carousel-7.jpeg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/07/overlocker-carousel-8.jpeg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/07/overlocker-carousel-9.jpeg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/07/overlocker-carousel-10.jpeg"
+    ],
+    "student_projects": [
+      "https://www.your-creatory.com/wp-content/uploads/2024/08/Andrea-1-300x225.jpg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/08/Andrea-2-300x225.jpg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/08/Andrea-5-225x300.jpg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/08/Andrea-6-1-225x300.jpg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/08/HP_Tasche-1-231x300.jpg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/08/Jacqueline-202x300.jpg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/08/Yvonne-225x300.jpg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/08/yvonne1-225x300.jpg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/09/sabine-image-project-300x300.jpg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/09/sabine-image-project1-300x300.jpg",
+      "https://www.your-creatory.com/wp-content/uploads/2024/09/sabine-image-project21-148x300.jpg"
+    ],
+    "thread_tension_masterclass": "https://www.your-creatory.com/wp-content/uploads/2026/03/thread-tension-masterclass.jpg"
+  },
+  "testing_and_accessibility": {
+    "data_testid_rules": "All interactive elements (buttons, accordion triggers, links) MUST include a kebab-case data-testid attribute based on role (e.g., data-testid='hero-buy-now-btn', data-testid='faq-accordion-trigger-1').",
+    "contrast": "Ensure primary CTA color #C24153 has sufficient contrast against white and soft blush backgrounds.",
+    "aria_labels": "Add descriptive aria-labels to the BUY NOW buttons if context is needed, though the text itself is clear."
+  }
+}
